@@ -19,6 +19,8 @@ public class WorkOrderServiceImpl extends RemoteServiceServlet implements WorkOr
         objectToSave.setProperty("workLocation", fieldValue);
         service.put(objectToSave);
 
+        /** Retrieve an Object from the HRD database **/
+
         /*
         try
         {
